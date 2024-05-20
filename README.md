@@ -11,15 +11,15 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/kashul/node-simple-app-docker">
+  <a href="https://github.com/kashul/nodejs-simple-docker-compose-application.git">
     <img src="images/docker.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Simple NodeJS application for docker image
+  <h3 align="center">Simple NodeJS application for docker compose
 </h3>
 
   <p align="center">
-    Sample docker file for Your NodeJS application.
+    Sample docker compose file for Your NodeJS application.
   </p>
 </p>
 
@@ -72,7 +72,7 @@ Download and install Docker desktop on your machine.[Docker desktop](https://www
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/kashul/node-simple-app-docker.git
+   git clone https://github.com/kashul/nodejs-simple-docker-compose-application.git
    ```
 2. Build docker image
    ```sh
@@ -93,7 +93,7 @@ Download and install Docker desktop on your machine.[Docker desktop](https://www
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/kashul/node-simple-app-docker/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/kashul/nodejs-simple-docker-compose-application/issues) for a list of proposed features (and known issues).
 
 
 
@@ -134,16 +134,16 @@ Project Link: [https://github.com/kashul/node-simple-app-docker](https://github.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/kashul/node-simple-app-docker?style=for-the-badge
-[contributors-url]: https://github.com/kashul/node-simple-app-docker/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/kashul/node-simple-app-docker?style=for-the-badge
-[forks-url]: https://github.com/kashul/node-simple-app-docker/network/members
-[stars-shield]: https://img.shields.io/github/stars/kashul/node-simple-app-docker?style=for-the-badge
-[stars-url]: https://github.com/kashul/node-simple-app-docker/stargazers
-[issues-shield]: https://img.shields.io/github/issues/kashul/node-simple-app-docker?style=for-the-badge
-[issues-url]: https://github.com/kashul/node-simple-app-docker/issues
-[license-shield]: https://img.shields.io/github/license/kashul/node-simple-app-docker?style=for-the-badge
-[license-url]: https://github.com/kashul/node-simple-app-docker/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/kashul/nodejs-simple-docker-compose-application?style=for-the-badge
+[contributors-url]: https://github.com/kashul/nodejs-simple-docker-compose-application/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/kashul/nodejs-simple-docker-compose-application?style=for-the-badge
+[forks-url]: https://github.com/kashul/nodejs-simple-docker-compose-application/network/members
+[stars-shield]: https://img.shields.io/github/stars/kashul/nodejs-simple-docker-compose-application?style=for-the-badge
+[stars-url]: https://github.com/kashul/nodejs-simple-docker-compose-application/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kashul/nodejs-simple-docker-compose-application?style=for-the-badge
+[issues-url]: https://github.com/kashul/nodejs-simple-docker-compose-application/issues
+[license-shield]: https://img.shields.io/github/license/kashul/nodejs-simple-docker-compose-application?style=for-the-badge
+[license-url]: https://github.com/kashul/nodejs-simple-docker-compose-application/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/kashul-hindagoda/
 [product-screenshot]: images/screenshot.png
