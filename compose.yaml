@@ -1,0 +1,37 @@
+name: docker-compose-simple-project
+
+services:
+  app-one:  # service/container 
+    # container_name: app-one
+    build: ./docker-compose-app-one # build image and run (Docker pile path)
+   # image: docker-compose-app-one:1.0  # run genarated imag (name and version)
+    ports: # port mapping - host:container
+      - "3001:3001" 
+    env_file: # set value for variable  ex- PORT
+     - path: .env 
+       required: true # default
+
+    environment: # environment variables
+      - APP_TWO_HOST=app-two # Here app-two service/conatainer name can be used as host name
+      - APP_TWO_PORT=3000
+      - PORT=${PORT} # Read value from .env file
+      - SECRET_FILE=../run/secrets/app_one_secret #path to secret file
+    # depends_on: # after defended services run, this service will run
+    #   - app-two
+    secrets:
+       - app_one_secret # secret value in app-one-secret.txt save in this cpntainer under /run/secrets/app_one_secret path.
+
+  app-two:  # service/container 
+    # container_name: app-two
+    
+    build: ./docker-compose-app-two # build image and run (Docker pile path)
+   # image: docker-compose-app-two:1.0  # run genarated image (name and version)
+    ports: # port mapping - host:container
+      - "3000:3000"  
+    environment: # environment variables
+      - PORT=3000 
+secrets:
+  app_one_secret:
+    file: app-one-secret.txt
+
+
