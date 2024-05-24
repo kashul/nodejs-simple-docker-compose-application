@@ -55,7 +55,7 @@ Exmple docker file for simple node application.
 
 
 <p align="center">
-  <a href="https://github.com/kashul/nodejs-simple-docker-compose-application.git">
+  <a href="images/docker-compose.png">
     <img src="images/docker-compose.png" alt="image" width="100" height="100">
   </a>
 
