@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Exmple docker file for simple node application.
+Exmple docker compose file for simple node applications.
 
 
 <p align="center">
