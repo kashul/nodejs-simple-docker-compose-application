@@ -91,7 +91,7 @@ Download and install Docker desktop on your machine.[Docker desktop](https://www
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/kashul/nodejs-simple-docker-compose-application/issues) for a list of proposed features (and known issues).
+See the [open issues][issues-url] for a list of proposed features (and known issues).
 
 
 
@@ -111,16 +111,16 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [LICENSE][linkedin-url] for more information.
+Distributed under the MIT License. See [LICENSE][license-url] for more information.
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Kashul - [Kashul Hindagoda](https://www.linkedin.com/in/kashul-hindagoda/) - kasulkenuak@gmail.com
+Kashul - [Kashul Hindagoda][linkedin-url] - kasulkenuak@gmail.com
 
-Project Link: [https://github.com/kashul/node-simple-app-docker](https://github.com/kashul/node-simple-app-docker)
+Project Link: [nodejs-simple-docker-compose-application][project-url]
 
 
 
@@ -144,4 +144,5 @@ Project Link: [https://github.com/kashul/node-simple-app-docker](https://github.
 [license-url]: https://github.com/kashul/nodejs-simple-docker-compose-application/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/kashul-hindagoda/
+[project-url]: https://github.com/kashul/nodejs-simple-docker-compose-application
 [product-screenshot]: images/screenshot.png
