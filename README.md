@@ -15,11 +15,11 @@
     <img src="images/docker.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Simple NodeJS application for docker compose
+  <h3 align="center">Running simple NodeJS applications using docker compose
 </h3>
 
   <p align="center">
-    Sample docker compose file for Your NodeJS application.
+    Sample docker compose file for Your NodeJS applications.
   </p>
 </p>
 
@@ -74,15 +74,13 @@ Download and install Docker desktop on your machine.[Docker desktop](https://www
    ```sh
    git clone https://github.com/kashul/nodejs-simple-docker-compose-application.git
    ```
-2. Build docker image
+2. Run docker desktop
+  
+2. Run docker compose file in its directory
    ```sh
-   docker build -t test:latest .
+   docker compose up
    ```
-3. Run docker image
-   ```sh
-   docker run -p 3000:3000 test:latest
-   ```
-4. Browse [http://localhost:3000](http://localhost:3000)
+4. Browse [http://localhost:3001/getDataFromAppTwo](http://localhost:3001/getDataFromAppTwo)
 
 
 
