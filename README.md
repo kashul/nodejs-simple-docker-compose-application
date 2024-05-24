@@ -141,7 +141,7 @@ Project Link: [https://github.com/kashul/node-simple-app-docker](https://github.
 [issues-shield]: https://img.shields.io/github/issues/kashul/nodejs-simple-docker-compose-application?style=for-the-badge
 [issues-url]: https://github.com/kashul/nodejs-simple-docker-compose-application/issues
 [license-shield]: https://img.shields.io/github/license/kashul/nodejs-simple-docker-compose-application?style=for-the-badge
-[license-url]: https://github.com/kashul/nodejs-simple-docker-compose-application/blob/master/LICENSE.txt
+[license-url]: https://github.com/kashul/nodejs-simple-docker-compose-application/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/kashul-hindagoda/
 [product-screenshot]: images/screenshot.png
