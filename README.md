@@ -12,7 +12,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/kashul/nodejs-simple-docker-compose-application.git">
-    <img src="images/docker.png" alt="Logo" width="80" height="80">
+    <img src="images/compose-logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Running simple NodeJS applications using docker compose
