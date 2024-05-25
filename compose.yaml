@@ -3,7 +3,7 @@ name: docker-compose-simple-project
 services:
   app-one:  # service/container 
     # container_name: app-one
-    build: ./docker-compose-app-one # build image and run (Docker pile path)
+    build: ./docker-compose-app-one # build image and run (Docker file path)
    # image: docker-compose-app-one:1.0  # run genarated imag (name and version)
     ports: # port mapping - host:container
       - "3001:3001" 
@@ -24,7 +24,7 @@ services:
   app-two:  # service/container 
     # container_name: app-two
     
-    build: ./docker-compose-app-two # build image and run (Docker pile path)
+    build: ./docker-compose-app-two # build image and run (Docker file path)
    # image: docker-compose-app-two:1.0  # run genarated image (name and version)
     ports: # port mapping - host:container
       - "3000:3000"  
