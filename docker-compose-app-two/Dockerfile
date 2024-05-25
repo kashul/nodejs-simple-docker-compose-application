@@ -11,6 +11,9 @@ WORKDIR /app
 # install dependencies in the container
 RUN npm install
 
+#set environment variable
+ENV PORT=3000
+
 # expose port 3000 for host
 EXPOSE 3000
 

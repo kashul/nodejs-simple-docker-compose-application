@@ -85,7 +85,7 @@ Download and install Docker desktop on your machine.[Docker desktop](https://www
    ```sh
    docker compose up
    ```
-4. Browse [http://localhost:3001/getDataFromAppTwo](http://localhost:3001/getDataFromAppTwo)
+4. Browse [http://localhost:3001/getDataFromAppOne](http://localhost:3001/getDataFromAppOne)
 
 
 

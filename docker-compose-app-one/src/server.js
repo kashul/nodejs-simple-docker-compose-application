@@ -10,10 +10,13 @@ const APP_TWO_HOST = process.env.APP_TWO_HOST;
 const APP_TWO_PORT = process.env.APP_TWO_PORT;
 
 const server = http.createServer((req, res) => {
-  const fs = require('fs')
-  console.log("SECRET",fs.readFileSync(SECRET_FILE).toString())
+  if(SECRET_FILE != undefined){
+    const fs = require('fs')
+    console.log("SECRET",fs.readFileSync(SECRET_FILE).toString())
+  }
+  
 
-  if (req.url === "/getDataFromAppTwo" && req.method === "GET") {
+  if (req.url === "/getDataFromAppOne" && req.method === "GET") {
     const options = {
       hostname: APP_TWO_HOST,
       port: APP_TWO_PORT,

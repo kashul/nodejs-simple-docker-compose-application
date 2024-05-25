@@ -11,6 +11,11 @@ WORKDIR /app
 # install dependencies in the container
 RUN npm install
 
+#set environment variable
+ENV PORT=3001
+ENV APP_TWO_HOST="app-two"
+ENV APP_TWO_PORT=3000
+
 # expose port 3000 for host
 EXPOSE 3001
 
